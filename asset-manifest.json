@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.42951ef2.chunk.css",
+    "main.js": "/static/js/main.d4aa7837.chunk.js",
+    "main.js.map": "/static/js/main.d4aa7837.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ca55374f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ca55374f.js.map",
+    "static/js/2.8a12537f.chunk.js": "/static/js/2.8a12537f.chunk.js",
+    "static/js/2.8a12537f.chunk.js.map": "/static/js/2.8a12537f.chunk.js.map",
+    "static/js/3.5da3848d.chunk.js": "/static/js/3.5da3848d.chunk.js",
+    "static/js/3.5da3848d.chunk.js.map": "/static/js/3.5da3848d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.42951ef2.chunk.css.map": "/static/css/main.42951ef2.chunk.css.map",
+    "static/js/2.8a12537f.chunk.js.LICENSE.txt": "/static/js/2.8a12537f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Sporting_Grotesque-Bold_web.f3462db3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca55374f.js",
+    "static/js/2.8a12537f.chunk.js",
+    "static/css/main.42951ef2.chunk.css",
+    "static/js/main.d4aa7837.chunk.js"
+  ]
+}
