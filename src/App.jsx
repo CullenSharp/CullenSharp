@@ -1,29 +1,27 @@
 import React from 'react';
+import {
+	BrowserRouter as Router,
+	Route,
+	Switch
+} from 'react-router-dom';
+
+// Views
+import Home from './views/Home';
+import Writings from './views/Writings';
+import Post from './views/Post';
+
+// Styles
 import './App.css';
 
 function App() {
 	return (
-		<div className='app'>
-			<h1>Cullen Sharp</h1>
-			<section className='bodyCopy'>
-				<p>
-					<mark>Fullstack Web Developer</mark> with hands-on experience in the design and development of web applications from concept to release. Motivated self-starter focused on working at the intersection of art, design, and technology to create <mark>immersive</mark> and <mark>intuitive</mark> user experiences.
-				</p>
-				<nav>
-					<ul>
-						<li>
-							<a href="https://github.com/CullenSharp">github,</a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/cullensharp/">linkedin,</a>
-						</li>
-						<li>
-							<a href="https://www.are.na/cullen-sharp">are.na</a>
-						</li>
-					</ul>
-				</nav>
-			</section>
-		</div>
+		<Router>
+			<Switch>
+				<Route component={Home} exact path='/' />
+				<Route component={Writings} exact path='/Writings' />
+				<Route component={Post} path='/Writings/:slug' />
+			</Switch>
+		</Router>
 	);
 }
 

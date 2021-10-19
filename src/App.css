@@ -17,6 +17,11 @@ h1 {
   margin: 0 auto;
 }
 
+h2 {
+  font-size: 3vw;
+  font-family: 'IBM_Plex_Sans_Light';
+}
+
 .bodyCopy {
   width: 70%;
   margin: 0;
