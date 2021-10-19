@@ -1,9 +1,10 @@
 {
-  "homepage": "https://cullensharp.github.io/CullenSharp",
+  "homepage": ".",
   "name": "personal_website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sanity/block-content-to-react": "^3.0.0",
     "@sanity/client": "^2.21.3",
     "@sanity/image-url": "^1.0.1",
     "@testing-library/jest-dom": "^5.11.4",
