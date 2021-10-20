@@ -1,10 +1,11 @@
 /**
  * A script that generates a post's estimated read time based on images and words.
- * @param {NodeList} paragraphs
- * @param {NodeList} images
  * @returns {string}
  */
-function readTime(paragraphs, images, wordCount = 0) {
+function readTime(wordCount = 0) {
+	const paragraphs = document.querySelectorAll('p');
+	const images = document.querySelectorAll('img');
+	
 	for(let { textContent } of paragraphs) {
 		wordCount += textContent.split(' ').length;
 	}
