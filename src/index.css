@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Sporting Grotesque Bold';
+    font-weight: bold;
+    src:  url('./fonts/sporting_grotesque/bold/Sporting_Grotesque-Bold_web.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'IBM Plex Sans Light Italic';
+    font-style: italic;
+    src:    url('./fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'IBM Plex Sans Light';
+    src:    url('./fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf') format('truetype');
+  }
+  html {
+    @apply bg-yellow-50
+  }
+  section {
+    @apply my-3 bg-white shadow-xl rounded-xl p-5 w-2/5
+  }
+  article {
+    @apply block w-3/4
+  }
+  p {
+    @apply font-body text-base bg-transparent my-0
+  }
+  h1 {
+    @apply font-display text-5xl
+  }
+  ul {
+    @apply mt-2 border-t-2 pt-2
+  }
+  li {
+    @apply inline mr-2
+  }
+  h3 {
+    @apply font-display text-3xl mb-14
+  }
+  audio {
+    @apply mt-3
+  }
+  figure {
+    @apply mt-8 mb-3
+  }
+  img {
+    @apply m-0
+  }
+  a {
+    @apply underline text-green-400
+  }
+}
