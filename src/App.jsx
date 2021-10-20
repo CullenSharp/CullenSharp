@@ -14,9 +14,9 @@ function App() {
 	return (
 		<Router>
 			<Switch>
-				<Route component={Home} exact path='/' />
-				<Route component={Writings} exact path='/Writings' />
-				<Route component={Post} path='/Writings/:slug' />
+				<Route component={Home} exact path='/CullenSharp' />
+				<Route component={Writings} exact path='/CullenSharp/Writings' />
+				<Route component={Post} path='CullenSharp/Writings/:slug' />
 			</Switch>
 		</Router>
 	);
