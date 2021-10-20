@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import {
 	BrowserRouter as Router,
@@ -12,11 +13,11 @@ import Post from './views/Post';
 
 function App() {
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<Switch>
-				<Route component={Home} exact path='/CullenSharp' />
-				<Route component={Writings} exact path='/CullenSharp/Writings' />
-				<Route component={Post} path='CullenSharp/Writings/:slug' />
+				<Route component={Home} exact path='/' />
+				<Route component={Writings} exact path='/Writings' />
+				<Route component={Post} path='/Writings/:slug' />
 			</Switch>
 		</Router>
 	);
