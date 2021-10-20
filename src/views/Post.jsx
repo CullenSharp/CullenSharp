@@ -8,6 +8,12 @@ import imageUrlBuilder from '@sanity/image-url';
 //Components
 import BlockContent from '@sanity/block-content-to-react';
 
+//Utilities
+import readTime from '../scripts/readTime';
+
+//Assets
+import tokyoReggy from '../assets/02-Tokyo-Reggy.mp3';
+
 const builder = imageUrlBuilder(sanityClient);
 
 function urlFor(source) {
@@ -34,24 +40,28 @@ function Post() {
 			.catch(console.error);
 	}, []);
 
-	console.log(content);
-
 	return(
-		<>
+		<section>
 			<Link to='/'>
-				<h2>Home</h2>
+				<h3>Home</h3>
 			</Link>
 			{ content &&
         <>
-        	<h1>{content.title}</h1>
-        	<h2>Oct 18th ⁂ 14mins read time</h2>
-        	<figure>
-        		<img src={urlFor(content.mainImage).size(400,400).url()} alt={content.title} />
-        	</figure>
-        	<BlockContent blocks={content.body} />
+        	<h1 className='headline'>{content.title}</h1>
+        	<h4>{`${new Date(content.publishedAt).toDateString()} ⁂ ${readTime()}`}</h4>
+        	<audio controls>
+        		<source src={tokyoReggy} type="audio/mp3" />
+        	</audio>
+        	<article>
+        		<figure>
+        			<img src={urlFor(content.mainImage).size(400,400).url()} alt={content.title} />
+        			<figcaption>[1] a shuttle</figcaption>
+        		</figure>
+        		<BlockContent blocks={content.body} />
+        	</article>
         </>
 			}
-		</>
+		</section>
 	);
 }
 

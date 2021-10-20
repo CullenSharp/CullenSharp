@@ -10,9 +10,6 @@ import Home from './views/Home';
 import Writings from './views/Writings';
 import Post from './views/Post';
 
-// Styles
-import './App.css';
-
 function App() {
 	return (
 		<Router>

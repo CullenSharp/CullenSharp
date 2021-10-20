@@ -18,9 +18,9 @@ function Writings() {
 	});
 
 	return(
-		<>
-			<Link to='/'>
-				<h2>Home</h2>
+		<section>
+			<Link  to='/'>
+				<h3>Home</h3>
 			</Link>
 			<h1>Nothing to see here</h1>
 			{ posts?.map(({slug, _id, title}) => (
@@ -28,7 +28,7 @@ function Writings() {
 					<h2>{title}</h2>
 				</Link>
 			))}
-		</>
+		</section>
 	);
 }
 
