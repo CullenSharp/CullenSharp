@@ -9,6 +9,11 @@ export default {
 			type: 'string',
 		},
 		{
+			name: 'abstract',
+			title: 'Abstract',
+			type: 'string'
+		},
+		{
 			name: 'slug',
 			title: 'Slug',
 			type: 'slug',
@@ -22,6 +27,11 @@ export default {
 			title: 'Author',
 			type: 'reference',
 			to: {type: 'author'},
+		},
+		{
+			name: 'audio',
+			title: 'Audio',
+			type: 'file'
 		},
 		{
 			name: 'mainImage',
