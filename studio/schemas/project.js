@@ -6,7 +6,7 @@ export default {
 		{
 			name: 'title',
 			title: 'Title',
-			type: 'sting'
+			type: 'string'
 		},
 		{
 			name: 'author',
@@ -35,7 +35,13 @@ export default {
 		{
 			name: 'links',
 			title: 'Links',
-			type: 'array'
+			type: 'array',
+			of: [
+				{
+					type: 'string',
+					title: 'Link',
+				}
+			]
 		},
 		{
 			name: 'publishedAt',
