@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+@layer base{
   @font-face {
     font-family: 'Sporting Grotesque Bold';
     font-weight: bold;
@@ -17,40 +17,32 @@
     font-family: 'IBM Plex Sans Light';
     src:    url('./fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf') format('truetype');
   }
+
   html {
-    @apply bg-yellow-50
+    @apply bg-[#F4F8EE]
   }
-  section {
-    @apply my-3 bg-white shadow-xl rounded-xl p-5 w-2/5
+
+  .view {
+    @apply m-12
   }
-  article {
-    @apply block w-3/4
+
+  .title {
+    @apply text-8xl font-display mt-28 mb-14
   }
-  p {
-    @apply font-body text-base bg-transparent my-0
+
+  .intro {
+    @apply text-4xl font-body border-b-2 border-black pb-8 mb-8
   }
-  h1 {
-    @apply font-display text-5xl
-  }
-  ul {
-    @apply mt-2 border-t-2 pt-2
-  }
+
   li {
     @apply inline mr-2
   }
-  h3 {
-    @apply font-display text-3xl mb-14
+
+  mark {
+    @apply bg-[#3ED23B] bg-opacity-80
   }
-  audio {
-    @apply mt-3
-  }
-  figure {
-    @apply mt-8 mb-3
-  }
-  img {
-    @apply m-0
-  }
+
   a {
-    @apply underline text-green-400
+    @apply text-base underline text-[#316334]
   }
 }
