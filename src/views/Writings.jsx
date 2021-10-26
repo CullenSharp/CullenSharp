@@ -38,7 +38,7 @@ function Writings() {
 					<figure>
 						<img className='mr-4' src={urlFor(mainImage).size(530,410)} alt={title} />
 						<figcaption>
-						[1] <a href="#">a thing</a>
+						[1] <a href="#">a thing↗</a>
 						</figcaption>
 					</figure>
 					<section className='hero'>
