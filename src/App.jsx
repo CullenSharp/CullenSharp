@@ -10,6 +10,7 @@ import {
 import Home from './views/Home';
 import Writings from './views/Writings';
 import Post from './views/Post';
+import Projects from './views/Projects';
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 				<Route component={Home} exact path='/' />
 				<Route component={Writings} exact path='/Writings' />
 				<Route component={Post} path='/Writings/:slug' />
+				<Route component={Projects} exact path='/Projects' />
 			</Switch>
 		</Router>
 	);
