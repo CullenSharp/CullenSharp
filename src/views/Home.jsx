@@ -11,13 +11,13 @@ function Home() {
 			<nav>
 				<ul>
 					<li>
-						<a href="https://github.com/CullenSharp">github,</a>
+						<a href="https://github.com/CullenSharp" target='_blank' rel="noreferrer">💻 github↗</a>
 					</li>
 					<li>
-						<a href="https://www.linkedin.com/in/cullensharp/">linkedin,</a>
+						<a href="https://www.linkedin.com/in/cullensharp/" target='_blank' rel="noreferrer">🗄 linkedin↗</a>
 					</li>
 					<li>
-						<a href="https://www.are.na/cullen-sharp">are.na,</a>
+						<a href="https://www.are.na/cullen-sharp" target='_blank' rel="noreferrer">*️⃣ are.na↗</a>
 					</li>
 				</ul>
 			</nav>
