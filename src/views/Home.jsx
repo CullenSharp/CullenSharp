@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Home() {
 	return(
@@ -11,13 +11,20 @@ function Home() {
 			<nav>
 				<ul>
 					<li>
-						<a href="https://github.com/CullenSharp">github,</a>
+						💻
+						<a href="https://github.com/CullenSharp"> github,</a>
 					</li>
 					<li>
+						🗄
 						<a href="https://www.linkedin.com/in/cullensharp/">linkedin,</a>
 					</li>
 					<li>
-						<a href="https://www.are.na/cullen-sharp">are.na,</a>
+						*️⃣
+						<a href="https://www.are.na/cullen-sharp"> are.na,</a>
+					</li>
+					<li>
+						📓
+						<Link to='/Writings'> writings</Link>
 					</li>
 				</ul>
 			</nav>
