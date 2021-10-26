@@ -12,15 +12,15 @@ function Home() {
 				<ul>
 					<li>
 						💻
-						<a href="https://github.com/CullenSharp"> github,</a>
+						<a href="https://github.com/CullenSharp"> github↗</a>
 					</li>
 					<li>
 						🗄
-						<a href="https://www.linkedin.com/in/cullensharp/">linkedin,</a>
+						<a href="https://www.linkedin.com/in/cullensharp/">linkedin↗</a>
 					</li>
 					<li>
 						*️⃣
-						<a href="https://www.are.na/cullen-sharp"> are.na,</a>
+						<a href="https://www.are.na/cullen-sharp"> are.na↗</a>
 					</li>
 					<li>
 						📓

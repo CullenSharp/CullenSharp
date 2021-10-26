@@ -26,14 +26,6 @@
     @apply m-12
   }
 
-  .title {
-    @apply text-8xl font-display mt-28 mb-14
-  }
-
-  .intro {
-    @apply text-4xl font-body border-b-2 border-black pb-8 mb-8
-  }
-
   li {
     @apply inline mr-2
   }
@@ -44,5 +36,36 @@
 
   a {
     @apply text-base underline text-[#316334]
+  }
+  .title {
+    @apply text-8xl font-display mt-28 mb-14 tracking-tighter
+  }
+
+  .intro {
+    @apply text-4xl font-body border-b-2 border-black pb-8 mb-8
+  }
+
+  .navigation {
+    @apply text-2xl
+  }
+
+  .heading2 {
+    @apply text-5xl font-display tracking-tighter mt-48
+  }
+
+  .subtitle {
+    @apply mb-60
+  }
+
+  .posts {
+    @apply mb-8 flex
+  }
+  
+  .hero {
+    @apply w-1/2
+  }
+
+  p {
+    @apply font-body
   }
 }
