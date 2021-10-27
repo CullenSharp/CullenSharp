@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.f33c5731.chunk.css",
-    "main.js": "./static/js/main.bdb6c425.chunk.js",
-    "main.js.map": "./static/js/main.bdb6c425.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.b682b026.js",
-    "runtime-main.js.map": "./static/js/runtime-main.b682b026.js.map",
-    "static/js/2.ae275f07.chunk.js": "./static/js/2.ae275f07.chunk.js",
-    "static/js/2.ae275f07.chunk.js.map": "./static/js/2.ae275f07.chunk.js.map",
-    "static/js/3.8b26ae07.chunk.js": "./static/js/3.8b26ae07.chunk.js",
-    "static/js/3.8b26ae07.chunk.js.map": "./static/js/3.8b26ae07.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.f33c5731.chunk.css.map": "./static/css/main.f33c5731.chunk.css.map",
-    "static/js/2.ae275f07.chunk.js.LICENSE.txt": "./static/js/2.ae275f07.chunk.js.LICENSE.txt",
-    "static/media/02-Tokyo-Reggy.93feb862.mp3": "./static/media/02-Tokyo-Reggy.93feb862.mp3",
-    "static/media/index.css": "./static/media/Sporting_Grotesque-Bold_web.da76a051.woff"
+    "main.css": "/static/css/main.aa19a968.chunk.css",
+    "main.js": "/static/js/main.74262ade.chunk.js",
+    "main.js.map": "/static/js/main.74262ade.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cce76133.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cce76133.js.map",
+    "static/js/2.ae275f07.chunk.js": "/static/js/2.ae275f07.chunk.js",
+    "static/js/2.ae275f07.chunk.js.map": "/static/js/2.ae275f07.chunk.js.map",
+    "static/js/3.8b26ae07.chunk.js": "/static/js/3.8b26ae07.chunk.js",
+    "static/js/3.8b26ae07.chunk.js.map": "/static/js/3.8b26ae07.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.aa19a968.chunk.css.map": "/static/css/main.aa19a968.chunk.css.map",
+    "static/js/2.ae275f07.chunk.js.LICENSE.txt": "/static/js/2.ae275f07.chunk.js.LICENSE.txt",
+    "static/media/02-Tokyo-Reggy.93feb862.mp3": "/static/media/02-Tokyo-Reggy.93feb862.mp3",
+    "static/media/index.css": "/static/media/Sporting_Grotesque-Bold_web.da76a051.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.b682b026.js",
+    "static/js/runtime-main.cce76133.js",
     "static/js/2.ae275f07.chunk.js",
-    "static/css/main.f33c5731.chunk.css",
-    "static/js/main.bdb6c425.chunk.js"
+    "static/css/main.aa19a968.chunk.css",
+    "static/js/main.74262ade.chunk.js"
   ]
 }
