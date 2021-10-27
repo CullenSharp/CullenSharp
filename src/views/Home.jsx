@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Home() {
 	return(
@@ -18,11 +17,6 @@ function Home() {
 					</li>
 					<li>
 						<a href="https://www.are.na/cullen-sharp" target='_blank' rel="noreferrer">*️⃣ are.na↗</a>
-					</li>
-					<li>
-						<Link to='/Writings'>
-							📓 writings
-						</Link>
 					</li>
 				</ul>
 			</nav>
