@@ -6,7 +6,10 @@ export default {
 		{
 			name: 'title',
 			title: 'Title',
-			type: 'string'
+			type: 'string',
+			options: {
+				maxLength: 60
+			}
 		},
 		{
 			name: 'author',
@@ -28,20 +31,17 @@ export default {
 			type: 'string'
 		},
 		{
-			name: 'abstract',
-			title: 'Abstract',
-			type: 'blockContent'
+			name: 'repoURL',
+			title: 'Repo URL',
+			type: 'string'
 		},
 		{
-			name: 'links',
-			title: 'Links',
-			type: 'array',
-			of: [
-				{
-					type: 'string',
-					title: 'Link',
-				}
-			]
+			name: 'abstract',
+			title: 'Abstract',
+			type: 'blockContent',
+			options: {
+				maxLength: 400
+			}
 		},
 		{
 			name: 'publishedAt',

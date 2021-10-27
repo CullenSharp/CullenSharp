@@ -7,11 +7,17 @@ export default {
 			name: 'title',
 			title: 'Title',
 			type: 'string',
+			options: {
+				maxLength: 60
+			}
 		},
 		{
 			name: 'abstract',
 			title: 'Abstract',
-			type: 'string'
+			type: 'string',
+			options: {
+				maxLength: 150
+			}
 		},
 		{
 			name: 'slug',
