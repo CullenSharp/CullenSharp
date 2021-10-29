@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.df4f1b5b.chunk.css",
-    "main.js": "/static/js/main.25467096.chunk.js",
-    "main.js.map": "/static/js/main.25467096.chunk.js.map",
+    "main.css": "/static/css/main.e757de12.chunk.css",
+    "main.js": "/static/js/main.653e1a5c.chunk.js",
+    "main.js.map": "/static/js/main.653e1a5c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cce76133.js",
     "runtime-main.js.map": "/static/js/runtime-main.cce76133.js.map",
     "static/js/2.c3b69db0.chunk.js": "/static/js/2.c3b69db0.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8b26ae07.chunk.js": "/static/js/3.8b26ae07.chunk.js",
     "static/js/3.8b26ae07.chunk.js.map": "/static/js/3.8b26ae07.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.df4f1b5b.chunk.css.map": "/static/css/main.df4f1b5b.chunk.css.map",
+    "static/css/main.e757de12.chunk.css.map": "/static/css/main.e757de12.chunk.css.map",
     "static/js/2.c3b69db0.chunk.js.LICENSE.txt": "/static/js/2.c3b69db0.chunk.js.LICENSE.txt",
     "static/media/02-Tokyo-Reggy.93feb862.mp3": "/static/media/02-Tokyo-Reggy.93feb862.mp3",
     "static/media/index.css": "/static/media/Sporting_Grotesque-Bold_web.da76a051.woff",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.cce76133.js",
     "static/js/2.c3b69db0.chunk.js",
-    "static/css/main.df4f1b5b.chunk.css",
-    "static/js/main.25467096.chunk.js"
+    "static/css/main.e757de12.chunk.css",
+    "static/js/main.653e1a5c.chunk.js"
   ]
 }
