@@ -9,7 +9,7 @@ function urlFor(source) {
 	return builder.image(source);
 }
 
-function Writings() {
+function Projects() {
 	const [posts, setPosts] = useState(null);
 
 	useEffect(() => {
@@ -31,8 +31,8 @@ function Writings() {
 			<Link  to='/'>
 				<h3 className='navigation'>🏠 home</h3>
 			</Link>
-			<h2 className='heading2'>writings</h2>
-			<p className='subtitle'>an archive of my writing, musings, and notes generally</p>
+			<h2 className='heading2'>projects</h2>
+			<p className='subtitle'>an archive of serious solutions to serious problems. trust me</p>
 			{ posts?.map(({slug, _id, title, mainImage, publishedAt}) => (
 				<article className='posts' key={_id}>
 					<figure>
@@ -56,4 +56,4 @@ function Writings() {
 	);
 }
 
-export default Writings;
+export default Projects;

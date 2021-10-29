@@ -41,27 +41,32 @@ function Post() {
 	}, []);
 
 	return(
-		<section>
+		<div className='view'>
 			<Link to='/'>
-				<h3>Home</h3>
+				<h3 className='navigation'>🏠 home</h3>
 			</Link>
 			{ content &&
         <>
-        	<h1 className='headline'>{content.title}</h1>
-        	<h4>{`${new Date(content.publishedAt).toDateString()} ⁂ ${readTime()}`}</h4>
-        	<audio controls>
+        	<h1 className='text-8xl font-display mt-28'>{content.title}</h1>
+        	<p className='text-2xl font-body mb-6'>{`${new Date(content.publishedAt).toDateString()} ⁂ ${readTime()}`}</p>
+        	<audio className='mb-16 drop-shadow-lg' controls>
         		<source src={tokyoReggy} type="audio/mp3" />
         	</audio>
-        	<article>
-        		<figure>
+        	<article className='w-1/2'>
+        		<p className='mb-8 font-body'>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex dolores corrupti expedita quia alias corporis hic harum eligendi enim quis. Eius natus doloremque quam illo incidunt illum, placeat aliquam nulla accusamus, reprehenderit voluptatum vero ab velit, debitis quasi amet voluptas modi ex fuga laudantium neque qui quis sapiente
+        		</p>
+        		<figure className='mb-6'>
         			<img src={urlFor(content.mainImage).size(400,400).url()} alt={content.title} />
-        			<figcaption>[1] a shuttle</figcaption>
+        			<figcaption>
+								[1] <a href="#">a thing↗</a>
+        			</figcaption>
         		</figure>
         		<BlockContent blocks={content.body} />
         	</article>
         </>
 			}
-		</section>
+		</div>
 	);
 }
 
