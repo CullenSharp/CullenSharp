@@ -1,18 +1,39 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Slider() {
-	function toggle(e) {
-		if (e.target.className === 'thumb checked') {
-			e.target.className = 'thumb';
-		} else {
-			e.target.className = 'thumb checked';
-		}
+	const [toggle, setToggle] = useState(false);
+	const [slide, setSlide] = useState(0);
+
+
+	function handleToggle() {
+		setToggle(!toggle);
 	}
+
+	function handleSlide() {
+		slide === 1
+			? setSlide(0)
+			: setSlide(1);
+	}
+
+	useEffect(() => {
+		const body = document.querySelector('body');
+    
+		body.className === 'dark'
+			? body.className = ''
+			: body.className = 'dark';
+	}, [toggle]);
 
 	return(
 		<div className='toggle'>
 			<div className='track'></div>
-			<div className='thumb' onClick={toggle}></div>
+			<div
+				className='thumb'
+				onClick={() => {
+					handleToggle();
+					handleSlide();
+				}}
+				slide={slide}
+			></div>
 		</div>
 	);
 }
