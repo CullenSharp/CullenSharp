@@ -18,54 +18,56 @@
     src:    url('./fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf') format('truetype');
   }
 
-  html {
-    @apply bg-[#F4F8EE]
+  body {
+    @apply bg-[#F4F8EE] transition-colors
+  }
+
+  body.dark {
+    @apply bg-[#011A00] transition-colors subpixel-antialiased
   }
 
   .view {
     @apply m-12
   }
 
+  .thumb {
+    @apply absolute top-[-4px] left-[-10px] w-8 h-8 drop-shadow-lg bg-[#F4F8EE] rounded-full transition-all box-border translate-x-0 text-base text-center
+  }
+
+  .track {
+    @apply w-14 h-6 p-0 rounded-full bg-gray-400 transition-colors shadow-inner drop-shadow-md
+  }
+
+  .thumb[slide='1']{
+    @apply translate-x-10 bg-[#011A00]
+  }
+
+  .toggle {
+    @apply inline-block relative cursor-pointer bg-transparent border-0 p-0 transition-colors
+  }
+
   li {
-    @apply inline mr-2
+    @apply inline mr-2 
   }
 
   mark {
-    @apply bg-[#3ED23B] bg-opacity-80
+    @apply bg-[#3ED23B] bg-opacity-80 text-[#131313] dark:text-[#FDFDFD] dark:bg-[#316334]
+  }
+
+  p {
+    @apply font-body text-[#131313] dark:text-[#FDFDFD]
   }
 
   a {
-    @apply text-base underline text-[#316334]
-  }
-  .title {
-    @apply text-8xl font-display mt-28 mb-14 tracking-tighter
-  }
-
-  .intro {
-    @apply text-4xl font-body border-b-2 border-black pb-8 mb-8 tracking-normal
+    @apply text-base underline text-[#316334] dark:text-[#3ED23B]
   }
 
   .navigation {
     @apply text-2xl
   }
 
-  .heading2 {
-    @apply text-5xl font-display tracking-tighter mt-48
-  }
-
-  .subtitle {
-    @apply mb-60
-  }
-
   .posts {
     @apply mb-8 flex
   }
-  
-  .hero {
-    @apply w-1/2
-  }
 
-  p {
-    @apply font-body
-  }
 }
