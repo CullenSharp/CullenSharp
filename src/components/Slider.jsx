@@ -4,7 +4,6 @@ function Slider() {
 	const [toggle, setToggle] = useState(false);
 	const [slide, setSlide] = useState(0);
 
-
 	function handleToggle() {
 		setToggle(!toggle);
 	}
@@ -34,6 +33,7 @@ function Slider() {
 				}}
 				slide={slide}
 			></div>
+			<input className='sr-only' type='checkbox' aria-label='Switch between Dark and Light mode'/>
 		</div>
 	);
 }

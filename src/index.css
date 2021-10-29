@@ -19,11 +19,11 @@
   }
 
   body {
-    @apply bg-[#F4F8EE] transition-colors
+    @apply bg-[#F4F8EE] transition-colors duration-300
   }
 
   body.dark {
-    @apply bg-[#011A00] transition-colors subpixel-antialiased
+    @apply bg-[#011A00] transition-colors duration-300 subpixel-antialiased
   }
 
   .view {
@@ -31,23 +31,23 @@
   }
 
   .thumb {
-    @apply absolute top-[-4px] left-[-10px] w-8 h-8 drop-shadow-lg bg-[#F4F8EE] rounded-full transition-all box-border translate-x-0 text-base text-center
+    @apply absolute top-0.5 left-0.5 w-5 h-5 drop-shadow-lg bg-[#F4F8EE] rounded-full transition-all duration-300 box-border translate-x-0 text-base text-center
   }
 
   .track {
-    @apply w-14 h-6 p-0 rounded-full bg-gray-400 transition-colors shadow-inner drop-shadow-md
+    @apply w-12 h-6 p-0 rounded-full bg-gray-400 transition-colors duration-300 shadow-inner drop-shadow-md
   }
 
   .thumb[slide='1']{
-    @apply translate-x-10 bg-[#011A00]
+    @apply translate-x-6 bg-[#011A00]
   }
 
   .toggle {
-    @apply inline-block relative cursor-pointer bg-transparent border-0 p-0 transition-colors
+    @apply inline-block relative cursor-pointer bg-transparent border-0 p-0 transition-colors duration-300
   }
 
   li {
-    @apply inline mr-2 
+    @apply inline mr-2 h-5 w-12
   }
 
   mark {
@@ -59,7 +59,7 @@
   }
 
   a {
-    @apply text-base underline text-[#316334] dark:text-[#3ED23B]
+    @apply text-base underline text-[#316334] dark:text-[#3ED23B] h-5 w-12
   }
 
   .navigation {

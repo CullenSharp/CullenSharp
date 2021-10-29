@@ -16,7 +16,7 @@ import Slider from './components/Slider';
 function App() {
 	return (
 		<Router basename={process.env.PUBLIC_URL}>
-			<header className='m-12 flex justify-between content-center'>
+			<header className='m-12 flex flex-row-reverse items-center'>
 				<Slider />
 			</header>
 			<Switch>
