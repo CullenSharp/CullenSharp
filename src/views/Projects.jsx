@@ -9,7 +9,7 @@ function urlFor(source) {
 	return builder.image(source);
 }
 
-function Writings() {
+function Projects() {
 	const [posts, setPosts] = useState(null);
 
 	useEffect(() => {
@@ -31,7 +31,7 @@ function Writings() {
 
 	return(
 		<div className='view'>
-			<h2 className='text-[#131313] dark:text-[#FDFDFD] text-5xl font-display tracking-tighter mt-32 lg:mt-48'>writings</h2>
+			<h2 className='text-[#131313] dark:text-[#FDFDFD] text-5xl font-display tracking-tighter mt-32 lg:mt-48'>projects</h2>
 			<h3 className='text-[#131313] dark:text-[#FDFDFD] mb-5 text-base font-body lg:mb-60'>serious solutions to serious problems. trust me.</h3>
 			{ posts?.map(({ _id, title, mainImage, publishedAt, abstract, projectURL, repoURL}) => (
 				<article className='mb-12 overflow-scroll lg:flex' key={_id}>
@@ -59,4 +59,4 @@ function Writings() {
 	);
 }
 
-export default Writings;
+export default Projects;
