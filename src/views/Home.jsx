@@ -1,5 +1,6 @@
 import React from 'react';
 import resume from '../assets/resume.pdf';
+import { Link } from 'react-router-dom';
 
 function Home() {
 	return(
@@ -23,6 +24,9 @@ function Home() {
 				<ul className='mb-2'>
 					<li>
 						<a href={resume}>📝 resume</a>
+					</li>
+					<li>
+						<Link to='/Projects'>💼 projects</Link>
 					</li>
 				</ul>
 			</nav>
