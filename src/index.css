@@ -55,7 +55,7 @@
   }
 
   p {
-    @apply font-body text-[#131313] dark:text-[#FDFDFD]
+    @apply font-body text-[#131313] dark:text-[#FDFDFD] mb-4
   }
 
   a {
@@ -63,7 +63,7 @@
   }
 
   .navigation {
-    @apply text-2xl
+    @apply text-2xl font-body tracking-tight 
   }
 
   .posts {
