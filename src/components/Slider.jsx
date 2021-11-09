@@ -9,6 +9,13 @@ function Slider() {
 		setToggle(!toggle)
 	}
 
+	function savePreference() {
+		const theme = window.localStorage.getItem('theme')
+		theme === ''
+			? window.localStorage.setItem('theme', 'dark')
+			: window.localStorage.setItem('theme', '')
+	}
+
 	function handleSlide() {
 		slide === 1
 			? setSlide(0)
@@ -16,12 +23,12 @@ function Slider() {
 	}
 
 	useEffect(() => {
-		const body = document.querySelector('body');
+		const body = document.querySelector('body')
     
 		body.className === 'dark'
 			? body.className = ''
 			: body.className = 'dark'
-	}, [toggle]);
+	}, [toggle])
 
 	return(
 		<div className={sliderStyles.toggle}>
@@ -31,12 +38,13 @@ function Slider() {
 				onClick={() => {
 					handleToggle()
 					handleSlide()
+					savePreference()
 				}}
 				slide={slide}
 			></div>
 			<input className='sr-only' type='checkbox' aria-label='Switch between Dark and Light mode'/>
 		</div>
-	);
+	)
 }
 
-export default Slider;
+export default Slider
