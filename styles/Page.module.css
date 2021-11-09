@@ -1,0 +1,16 @@
+.title {
+  font-family: 'Sporting Grotesque Bold';
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.description {
+  line-height: 1.5rem;
+  letter-spacing: 0.025em;
+  margin-bottom: 5rem;
+  padding-bottom: 1rem;
+  border: solid var(--body);
+  border-width: 0px 0px medium 0px;
+}

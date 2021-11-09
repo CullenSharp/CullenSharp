@@ -5,13 +5,13 @@ import headerStyles from '../../styles/Header.module.css'
 
 export default function Header() {
 	return (
-		<header className={headerStyles.header}>
-			<Link href='/'>
-				<h3 className='navigation'>
+    <header className={headerStyles.header}>
+      <Link href='/'>
+        <h3 style={{cursor: 'pointer'}}>
           Home
-				</h3>
-			</Link>
-			<Slider />
-		</header>
+        </h3>
+      </Link>
+      <Slider />
+    </header>
 	);
 }

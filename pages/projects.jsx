@@ -1,12 +1,13 @@
 import React from 'react'
 import sanityClient from '../src/client'
 import ProjectList from '../src/components/ProjectList'
+import pageStyles from '../styles/Page.module.css'
 
 function Projects({ projects }) {
 	return(
 		<>
-			<h2 className='text-[#131313] dark:text-[#FDFDFD] text-5xl font-display tracking-tighter mt-32 lg:mt-48'>projects</h2>
-			<h3 className='text-[#131313] dark:text-[#FDFDFD] mb-5 text-base font-body lg:mb-60'>serious solutions to serious problems. trust me.</h3>
+			<h2 className={pageStyles.title}>projects</h2>
+			<h3 className={pageStyles.description}>serious solutions to serious problems. trust me.</h3>
 			<ProjectList projects={projects} />
 		</>
 	)

@@ -1,17 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'
+import sliderStyles from '../../styles/Slider.module.css'
 
 function Slider() {
-	const [toggle, setToggle] = useState(false);
-	const [slide, setSlide] = useState(0);
+	const [toggle, setToggle] = useState(false)
+	const [slide, setSlide] = useState(0)
 
 	function handleToggle() {
-		setToggle(!toggle);
+		setToggle(!toggle)
 	}
 
 	function handleSlide() {
 		slide === 1
 			? setSlide(0)
-			: setSlide(1);
+			: setSlide(1)
 	}
 
 	useEffect(() => {
@@ -19,17 +20,17 @@ function Slider() {
     
 		body.className === 'dark'
 			? body.className = ''
-			: body.className = 'dark';
+			: body.className = 'dark'
 	}, [toggle]);
 
 	return(
-		<div className='toggle'>
-			<div className='track'></div>
+		<div className={sliderStyles.toggle}>
+			<div className={sliderStyles.track}></div>
 			<div
-				className='thumb'
+				className={sliderStyles.thumb}
 				onClick={() => {
-					handleToggle();
-					handleSlide();
+					handleToggle()
+					handleSlide()
 				}}
 				slide={slide}
 			></div>

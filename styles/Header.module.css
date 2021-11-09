@@ -4,3 +4,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+.header h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}

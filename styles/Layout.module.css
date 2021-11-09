@@ -9,6 +9,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: left;
   font-size: 1.25rem;
 }
