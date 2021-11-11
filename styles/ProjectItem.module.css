@@ -33,6 +33,7 @@
 
 .subTitle {
   margin-bottom: 1.75rem;
+  font-size: clamp(1rem, 1vw, 1.5rem)
 }
 
 .section {
@@ -42,7 +43,7 @@
 
 .section p {
   letter-spacing: 0.025em;
-  font-size: clamp(1rem, 1.25rem, 1.5rem);
+  font-size: clamp(1rem, 1vw, 1.5rem);
 }
 
 .nav {
@@ -67,4 +68,5 @@
 
 .nav ul li a{
   margin: .5rem 1rem;
+  font-size: clamp(1rem, 1vw, 1.5rem)
 }

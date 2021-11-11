@@ -1,15 +1,19 @@
 import React from 'react'
 import hamburgerStyles from '../../styles/Hamburger.module.css'
 
-export default function Hamburger({ openDrawer }) {
+export default function Hamburger({ toggleDrawer, checked, setChecked }) {
+
   return (
     <>
       <div className={hamburgerStyles.wrapper}>
         <input 
           className={hamburgerStyles.toggle}
           type='checkbox'
-          onFocus={openDrawer}
-          onBlur={openDrawer}
+          checked={checked}
+          onChange={() => {
+            toggleDrawer()
+            setChecked(!checked)
+          }}
         />
         <div className={hamburgerStyles.hamburger}>
           <div />

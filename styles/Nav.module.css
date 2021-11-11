@@ -1,0 +1,15 @@
+.header {
+  width: min(95%, 70.5rem);
+  margin: 1.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header .divider {
+  width: 2px;
+  height: 40px;
+  margin-inline: .5rem;
+  background-color: var(--body);
+}
