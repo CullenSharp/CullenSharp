@@ -9,6 +9,7 @@ export default function Hamburger({ toggleDrawer, checked, setChecked }) {
         <input 
           className={hamburgerStyles.toggle}
           type='checkbox'
+          aria-label='Button to open site navigation'
           checked={checked}
           onChange={() => {
             toggleDrawer()
@@ -18,7 +19,6 @@ export default function Hamburger({ toggleDrawer, checked, setChecked }) {
         <div className={hamburgerStyles.hamburger}>
           <div />
         </div>
-        <input className='sr-only' type='check' aria-label='Button to open site navigation'/>
       </div>
     </>
   )

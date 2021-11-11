@@ -72,14 +72,17 @@ a {
   font-family: 'IBM Plex Sans Light Italic';
   font-style: italic;
   src:    url('../public/fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.ttf') format('truetype');
+  font-display: swap;
 }
 @font-face {
   font-family: 'IBM Plex Sans Light';
   src:    url('../public/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Sporting Grotesque Bold';
   font-weight: bold;
   src:  url('../public/fonts/sporting_grotesque/bold/Sporting_Grotesque-Bold_web.woff') format('woff');
+  font-display: swap;
 }
