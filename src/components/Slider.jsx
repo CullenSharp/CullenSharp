@@ -11,6 +11,7 @@ function Slider() {
 
 	function savePreference() {
 		const theme = window.localStorage.getItem('theme')
+		
 		theme === ''
 			? window.localStorage.setItem('theme', 'dark')
 			: window.localStorage.setItem('theme', '')

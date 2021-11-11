@@ -14,8 +14,8 @@ export default function ProjectItem({ project }) {
   const {id, mainImage, title, publishedAt, abstract, projectURL, repoURL} = project;
   return(
     <article className={projectItemStyles.article} key={id}>
-			<figure>
-				<img className={projectItemStyles.img} src={urlFor(mainImage).size(776,465)} alt={title} />
+			<figure className={projectItemStyles.figure}>
+				<img src={urlFor(mainImage).size(776,465)} alt={title} />
 			</figure>
 			<section className={projectItemStyles.section}>
 				<h2 className={projectItemStyles.title}>{title}</h2>
