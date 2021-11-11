@@ -1,6 +1,6 @@
 .nav {
   width: min(90%, 70.5rem);
-  margin: 1.5rem;
+  margin-top: 1rem;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -10,6 +10,6 @@
 .nav .divider {
   width: 2px;
   height: 40px;
-  margin-inline: .5rem;
+  margin-inline: 0.5rem;
   background-color: var(--body);
 }

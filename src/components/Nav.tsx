@@ -4,15 +4,15 @@ import Hamburger from './Hamburger'
 import navStyles from '../../styles/Nav.module.css'
 
 export default function Header({ toggleDrawer, checked, setChecked }) {
-	return (
+  return (
     <nav className={navStyles.nav}>
       <Slider />
-      <div className={navStyles.divider}/>
+      <div className={navStyles.divider} />
       <Hamburger
         toggleDrawer={toggleDrawer}
         checked={checked}
         setChecked={setChecked}
       />
     </nav>
-	);
+  )
 }
