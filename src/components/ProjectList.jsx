@@ -5,7 +5,7 @@ export default function ProjectList({ projects }) {
   return (
     <>
       { projects.map(project => (
-        <ProjectItem project={project} />
+        <ProjectItem key={project.title} project={project} />
       ))}
     </>
   )
