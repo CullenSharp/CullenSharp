@@ -9,17 +9,18 @@
 }
 
 .figure {
-  width: 90%;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.figure img {
+.figure .Image {
   margin: 0 auto;
   margin-bottom: 2rem;
   display: block;
   max-width: 100%;
+  width: 10px;
 }
 
 .title {
@@ -33,7 +34,7 @@
 
 .subTitle {
   margin-bottom: 1.75rem;
-  font-size: clamp(1rem, 1vw, 1.5rem);
+  font-size: min(1.5rem);
 }
 
 .section {
@@ -43,7 +44,7 @@
 
 .section p {
   letter-spacing: 0.025em;
-  font-size: clamp(1rem, 1vw, 1.5rem);
+  font-size: clamp(1.125rem, 1vw, 1.5rem);
 }
 
 .nav {

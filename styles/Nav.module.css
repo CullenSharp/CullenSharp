@@ -1,6 +1,6 @@
 .nav {
   width: min(90%, 70.5rem);
-  margin: 1.5rem;
+  margin-top: 1rem;
   align-items: center;
   display: flex;
   flex-direction: row;

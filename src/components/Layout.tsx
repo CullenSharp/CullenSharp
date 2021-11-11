@@ -29,12 +29,12 @@ export default function Layout({ children }) {
         setChecked={setChecked}
         checked={checked}
       />
-      <Nav
-        toggleDrawer={toggleDrawer}
-        checked={checked}
-        setChecked={setChecked}
-      />
       <div className={layoutStyles.container}>
+        <Nav
+          toggleDrawer={toggleDrawer}
+          checked={checked}
+          setChecked={setChecked}
+        />
         <main className={layoutStyles.main}>{children}</main>
       </div>
     </>

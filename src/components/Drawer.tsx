@@ -4,7 +4,7 @@ import drawerStyles from '../../styles/Drawer.module.css'
 
 export default function Drawer({ show, toggleDrawer, setChecked, checked }) {
   return (
-    <aside className={drawerStyles.drawer} show={show}>
+    <aside className={drawerStyles.drawer} show={show.toString()}>
       <nav>
         <ul>
           <li

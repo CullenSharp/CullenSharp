@@ -15,10 +15,21 @@ export default function ProjectItem({ project }) {
   const { id, mainImage, title, publishedAt, abstract, projectURL, repoURL } =
     project
 
+  const imageUrl: string = urlFor(mainImage).toString()
+
   return (
     <article className={projectItemStyles.article} key={id}>
       <figure className={projectItemStyles.figure}>
-        <Image src={urlFor(mainImage).size(776, 465).toString()} alt={title} />
+        <Image
+          className={projectItemStyles.Image}
+          src={imageUrl}
+          alt={title}
+          width={860}
+          height={500}
+          objectFit="contain"
+          placeholder="blur"
+          blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mMUnyxVDwAC0gFF8x/OjQAAAABJRU5ErkJggg=="
+        />
       </figure>
       <section className={projectItemStyles.section}>
         <h2 className={projectItemStyles.title}>{title}</h2>
