@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
+import { NextSeo } from 'next-seo'
 import Nav from './Nav'
 import Drawer from './Drawer'
 import layoutStyles from '../../styles/Layout.module.css'
@@ -13,6 +14,15 @@ export default function Layout({ children }) {
 
 	return (
 		<>
+			<NextSeo 
+				title='Cullen Sharp'
+				description="Full-stack developer Cullen Sharp\'s homepage" 
+				canonical='https://cullen-sharp.com/'
+				twitter={{
+					handle: '@CullenSharp',
+					cardType: 'summary_large_image'
+				}}
+			/>
 			<Drawer
 				toggleDrawer={toggleDrawer}
 				show={show}
