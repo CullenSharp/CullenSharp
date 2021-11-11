@@ -9,7 +9,7 @@
 
 .main {
   min-height: 100%;
-  width: min(95%, 70.5rem);
+  width: min(90%, 70.5rem);
   padding: 4rem 0;
   font-size: 1.25rem;
 }

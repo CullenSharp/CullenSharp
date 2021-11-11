@@ -1,5 +1,5 @@
-.header {
-  width: min(95%, 70.5rem);
+.nav {
+  width: min(90%, 70.5rem);
   margin: 1.5rem;
   align-items: center;
   display: flex;
@@ -7,7 +7,7 @@
   justify-content: flex-end;
 }
 
-.header .divider {
+.nav .divider {
   width: 2px;
   height: 40px;
   margin-inline: .5rem;
