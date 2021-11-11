@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.wrapper .status-code {
+  font-size: 3rem;
+  width: fit-content;
+  margin-right: 1rem;
+  padding: 1rem;
+  border: solid var(--body);
+  border-width: 0px thin 0px 0px;
+}
+
+.wrapper .message {
+  font-size: 1rem;
+}

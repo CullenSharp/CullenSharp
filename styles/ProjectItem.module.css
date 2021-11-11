@@ -1,0 +1,72 @@
+.article {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 1rem;
+  border: solid var(--body);
+  border-width: 0px 0px thin 0px;
+}
+
+.figure {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.figure img {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  display: block;
+  max-width: 100%;
+}
+
+.title {
+  font-family: 'Sporting Grotesque Bold';
+  font-size: clamp(2rem, 2rem, 5rem);
+  width: fit-content;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.subTitle {
+  margin-bottom: 1.75rem;
+  font-size: clamp(1rem, 1vw, 1.5rem)
+}
+
+.section {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.section p {
+  letter-spacing: 0.025em;
+  font-size: clamp(1rem, 1vw, 1.5rem);
+}
+
+.nav {
+  display: flex;
+  width: min(90%);
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav ul li:first-child a {
+  margin-left: 0;
+}
+
+.nav ul li a{
+  margin: .5rem 1rem;
+  font-size: clamp(1rem, 1vw, 1.5rem)
+}
