@@ -5,7 +5,7 @@ import navStyles from '../../styles/Nav.module.css'
 
 export default function Header({ toggleDrawer, checked, setChecked }) {
 	return (
-    <nav className={navStyles.header}>
+    <nav className={navStyles.nav}>
       <Slider />
       <div className={navStyles.divider}/>
       <Hamburger
