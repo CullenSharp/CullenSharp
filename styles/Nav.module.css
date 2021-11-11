@@ -10,6 +10,6 @@
 .nav .divider {
   width: 2px;
   height: 40px;
-  margin-inline: .5rem;
+  margin-inline: 0.5rem;
   background-color: var(--body);
 }
